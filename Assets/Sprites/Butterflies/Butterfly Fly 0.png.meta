@@ -104,6 +104,108 @@ TextureImporter:
   - first:
       213: 6111373459006282211
     second: Butterfly Fly 1_33
+  - first:
+      213: 9205467421319766205
+    second: Butterfly Fly 0_0
+  - first:
+      213: -1313151435602123304
+    second: Butterfly Fly 0_1
+  - first:
+      213: -1557595919792240689
+    second: Butterfly Fly 0_2
+  - first:
+      213: -3567743573487862901
+    second: Butterfly Fly 0_3
+  - first:
+      213: -2594371159513232191
+    second: Butterfly Fly 0_4
+  - first:
+      213: -5905486045234189265
+    second: Butterfly Fly 0_5
+  - first:
+      213: -1814392206363846056
+    second: Butterfly Fly 0_6
+  - first:
+      213: -5208639715808275549
+    second: Butterfly Fly 0_7
+  - first:
+      213: 5802942364356935274
+    second: Butterfly Fly 0_8
+  - first:
+      213: 1317691298383902042
+    second: Butterfly Fly 0_9
+  - first:
+      213: 1701783196189084770
+    second: Butterfly Fly 0_10
+  - first:
+      213: 3650030346317679554
+    second: Butterfly Fly 0_11
+  - first:
+      213: -2381171732495028239
+    second: Butterfly Fly 0_12
+  - first:
+      213: 2121730614381118157
+    second: Butterfly Fly 0_13
+  - first:
+      213: 5150084334640804819
+    second: Butterfly Fly 0_14
+  - first:
+      213: 6911824779321204657
+    second: Butterfly Fly 0_15
+  - first:
+      213: -5002566263989175609
+    second: Butterfly Fly 0_16
+  - first:
+      213: -3211171133736861724
+    second: Butterfly Fly 0_17
+  - first:
+      213: -6755259017152610687
+    second: Butterfly Fly 0_18
+  - first:
+      213: -1893607845330316867
+    second: Butterfly Fly 0_19
+  - first:
+      213: 3126440402968789013
+    second: Butterfly Fly 0_20
+  - first:
+      213: 7493551385001578126
+    second: Butterfly Fly 0_21
+  - first:
+      213: -5154310397340074731
+    second: Butterfly Fly 0_22
+  - first:
+      213: 2436987032306550733
+    second: Butterfly Fly 0_23
+  - first:
+      213: 5847456551654661833
+    second: Butterfly Fly 0_24
+  - first:
+      213: -8771528257030530352
+    second: Butterfly Fly 0_25
+  - first:
+      213: -2243207557777201602
+    second: Butterfly Fly 0_26
+  - first:
+      213: -8208286421751217973
+    second: Butterfly Fly 0_27
+  - first:
+      213: -8888269713999088901
+    second: Butterfly Fly 0_28
+  - first:
+      213: 6468246495696859921
+    second: Butterfly Fly 0_29
+  - first:
+      213: 2488214635849185575
+    second: Butterfly Fly 0_30
+  - first:
+      213: 3313948475181690164
+    second: Butterfly Fly 0_31
+  - first:
+      213: 6307769571850237549
+    second: Butterfly Fly 0_32
+  - first:
+      213: -8130612229980732520
+    second: Butterfly Fly 0_33
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -188,13 +290,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Butterfly Fly 1_0
+      name: Butterfly Fly 0_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 138
-        width: 32
-        height: 39
+        x: 0
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c34ccba29b66594a9c4f0c7f78532d6
-      internalID: 532055624859465939
+      spriteID: 164bedd93cefd3c43bd8653c58bac1c6
+      internalID: 9205467421319766205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_1
+      name: Butterfly Fly 0_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 137
-        width: 33
-        height: 39
+        x: 70
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd8b11d7ea094414a978e5349502cf71
-      internalID: -3975408963643887882
+      spriteID: c948fdf3f5defb44499be0a703dafd92
+      internalID: -1313151435602123304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_2
+      name: Butterfly Fly 0_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 136
-        width: 36
-        height: 38
+        x: 140
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3639f5f07636ed4da329797d43ef752
-      internalID: 8346364318988017296
+      spriteID: acf676f8302ef294c815047c0b383ebb
+      internalID: -1557595919792240689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_3
+      name: Butterfly Fly 0_3
       rect:
         serializedVersion: 2
-        x: 236
-        y: 134
-        width: 38
-        height: 35
+        x: 210
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41532c2179ccd3947af3563b966dbd77
-      internalID: -5406201071688342864
+      spriteID: 9c7cf58a670c634478ec288af7685da2
+      internalID: -3567743573487862901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_4
+      name: Butterfly Fly 0_4
       rect:
         serializedVersion: 2
-        x: 307
-        y: 132
-        width: 39
-        height: 31
+        x: 280
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf5eeb489693ff44a845ecb6bcf5bac6
-      internalID: -5728849560177367232
+      spriteID: eae30f8d4e249ca4696ad304987f677b
+      internalID: -2594371159513232191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_5
+      name: Butterfly Fly 0_5
       rect:
         serializedVersion: 2
-        x: 379
-        y: 131
-        width: 36
-        height: 29
+        x: 350
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +409,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e876121c98cf62408e65c66537654b6
-      internalID: -623137322198533376
+      spriteID: 559e4fb5f4943784380f478ad2cf3c8e
+      internalID: -5905486045234189265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_6
+      name: Butterfly Fly 0_6
       rect:
         serializedVersion: 2
-        x: 447
-        y: 132
-        width: 39
-        height: 30
+        x: 420
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +430,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1242c231809d56544a2b572114469476
-      internalID: 2612023525347264761
+      spriteID: a80e2d04d9b9dfb4397be89f5aa3cff7
+      internalID: -1814392206363846056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_7
+      name: Butterfly Fly 0_7
       rect:
         serializedVersion: 2
-        x: 515
-        y: 134
-        width: 40
-        height: 32
+        x: 490
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +451,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c604abb3400bb6144855ef01e2a4c463
-      internalID: 7712402410695653324
+      spriteID: 222ec656b798e494b8c79ab0173f40f9
+      internalID: -5208639715808275549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_8
+      name: Butterfly Fly 0_8
       rect:
         serializedVersion: 2
-        x: 584
-        y: 136
-        width: 39
-        height: 35
+        x: 560
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9544957502c7df545bb7a899029a2376
-      internalID: 7761680182884083966
+      spriteID: e1a48984aaf9d8e4ca325b4a5d85e498
+      internalID: 5802942364356935274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_9
+      name: Butterfly Fly 0_9
       rect:
         serializedVersion: 2
-        x: 652
-        y: 137
-        width: 37
-        height: 36
+        x: 630
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,20 +493,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46efd239a4fe1c444b656f997a741e06
-      internalID: 2618439567415861344
+      spriteID: 9ace60052c5f8b34caabc86e375d6ad1
+      internalID: 1317691298383902042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_10
+      name: Butterfly Fly 0_10
       rect:
         serializedVersion: 2
-        x: 724
-        y: 136
-        width: 39
-        height: 35
+        x: 700
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +514,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cddb6c28d2f953646933a8bf26a8e9ea
-      internalID: -5242598444529429604
+      spriteID: a1f0009db75b9914a81793750dad223c
+      internalID: 1701783196189084770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_11
+      name: Butterfly Fly 0_11
       rect:
         serializedVersion: 2
-        x: 795
-        y: 134
-        width: 40
-        height: 32
+        x: 770
+        y: 130
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +535,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a23df23a0f511b45a7fba41afce7e5f
-      internalID: -7002593442059195521
+      spriteID: ee69ae087dcd0b4429336218e2b15e5c
+      internalID: 3650030346317679554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_12
+      name: Butterfly Fly 0_12
       rect:
         serializedVersion: 2
-        x: 27
-        y: 67
-        width: 39
-        height: 30
+        x: 0
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +556,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cc9f7eefb79d414db54c50d003969b0
-      internalID: 6369463813789196100
+      spriteID: 22f7f91dca1e28d4186bb0ec08d82cf9
+      internalID: -2381171732495028239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_13
+      name: Butterfly Fly 0_13
       rect:
         serializedVersion: 2
-        x: 99
-        y: 66
-        width: 36
-        height: 29
+        x: 70
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +577,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cb820d43ef38ff4598836bbb0ff7a61
-      internalID: -6019756645406526604
+      spriteID: 9d45ce50476741048bca04f1474c49af
+      internalID: 2121730614381118157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_14
+      name: Butterfly Fly 0_14
       rect:
         serializedVersion: 2
-        x: 167
-        y: 67
-        width: 39
-        height: 31
+        x: 140
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,20 +598,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363c31b0710373949a290f024e0570e8
-      internalID: -2445212595834973349
+      spriteID: 70c422fcc0390ab4e9f72dc6a1a00d0e
+      internalID: 5150084334640804819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_15
+      name: Butterfly Fly 0_15
       rect:
         serializedVersion: 2
-        x: 236
-        y: 69
-        width: 38
-        height: 35
+        x: 210
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddc85655ec6eb3d499b074a140be30fc
-      internalID: 4926934426571615516
+      spriteID: c33731aebfe32a64f8310309a2c5716b
+      internalID: 6911824779321204657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_16
+      name: Butterfly Fly 0_16
       rect:
         serializedVersion: 2
-        x: 304
-        y: 71
-        width: 36
-        height: 38
+        x: 280
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,20 +640,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e651e710e0b56f041bcf1890b4b618a9
-      internalID: 3192717298657705653
+      spriteID: c69a7df11ced0154b88f2daa8ad5c5de
+      internalID: -5002566263989175609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_17
+      name: Butterfly Fly 0_17
       rect:
         serializedVersion: 2
-        x: 372
-        y: 72
-        width: 33
-        height: 39
+        x: 350
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,20 +661,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd8a5ea7dda78a840ab25431d0ebc65e
-      internalID: 6987108809275977179
+      spriteID: 59b81efd89e002748a6e6542b1de5f12
+      internalID: -3211171133736861724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_18
+      name: Butterfly Fly 0_18
       rect:
         serializedVersion: 2
-        x: 440
-        y: 73
-        width: 32
-        height: 39
+        x: 420
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,20 +682,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0188407681b906f4a88d743a4d88a4a3
-      internalID: 4221604280939912918
+      spriteID: 1bf4503296f95fb4d9f0d5b33fd0849d
+      internalID: -6755259017152610687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_19
+      name: Butterfly Fly 0_19
       rect:
         serializedVersion: 2
-        x: 511
-        y: 74
-        width: 31
-        height: 39
+        x: 490
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,20 +703,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d9b7e641658d8469847c157ef360f8
-      internalID: 6752925619153988287
+      spriteID: 99e2dd024ae4d9a47a4f80700900ccc0
+      internalID: -1893607845330316867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_20
+      name: Butterfly Fly 0_20
       rect:
         serializedVersion: 2
-        x: 582
-        y: 74
-        width: 30
-        height: 39
+        x: 560
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,20 +724,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deea00eeda98aad44b1dd13e161ca471
-      internalID: -1961644295057831378
+      spriteID: ec24675edd7e55d4591b92e82ad938a9
+      internalID: 3126440402968789013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_21
+      name: Butterfly Fly 0_21
       rect:
         serializedVersion: 2
-        x: 652
-        y: 74
-        width: 30
-        height: 39
+        x: 630
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab79ac32a074ad45baf74711f129bde
-      internalID: 6846204858130661264
+      spriteID: 94eceabd35acbcc4badfe0e341ae8f88
+      internalID: 7493551385001578126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_22
+      name: Butterfly Fly 0_22
       rect:
         serializedVersion: 2
-        x: 723
-        y: 75
-        width: 29
-        height: 39
+        x: 700
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,20 +766,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63e26704921cc5044afa01cfea67449e
-      internalID: -8207544123872638630
+      spriteID: c4891a384b0951d478847b3a96c202a0
+      internalID: -5154310397340074731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_23
+      name: Butterfly Fly 0_23
       rect:
         serializedVersion: 2
-        x: 793
-        y: 75
-        width: 29
-        height: 40
+        x: 770
+        y: 65
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,125 +787,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217b541ff45313a409b748b84aae6e0d
-      internalID: -4239298330109742838
+      spriteID: 014dff9f65d41b843a29c7c175bae615
+      internalID: 2436987032306550733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_24
+      name: Butterfly Fly 0_24
       rect:
         serializedVersion: 2
-        x: 24
-        y: 9
-        width: 31
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7db6c9067a3719847a4c5e8777004ec7
-      internalID: -8279888566761205547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Butterfly Fly 1_25
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 8
-        width: 36
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a59268729f0e3f64c9a788d0ed97f076
-      internalID: 7932340344958752895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Butterfly Fly 1_26
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 6
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28c73433c2269484a891a40a8efce92c
-      internalID: 4467485918728259860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Butterfly Fly 1_27
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 4
-        width: 43
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d4cd820250373d418bdcf8c7116d832
-      internalID: 7454749840237088631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Butterfly Fly 1_28
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 2
-        width: 43
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02b28f1d4372032448ad3fb68e1d8feb
-      internalID: 5279040541397412111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Butterfly Fly 1_29
-      rect:
-        serializedVersion: 2
-        x: 378
+        x: 0
         y: 0
-        width: 40
-        height: 30
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +808,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1620d4ff28fb9394baa56115bf845863
-      internalID: -1474767755166467011
+      spriteID: 257c128e706e7334ba1ca466a343708f
+      internalID: 5847456551654661833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_30
+      name: Butterfly Fly 0_25
       rect:
         serializedVersion: 2
-        x: 446
-        y: 3
-        width: 42
-        height: 30
+        x: 70
+        y: 0
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,20 +829,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9fb3c2cabf01fe4ea18119f229cccf6
-      internalID: -2501860409489307427
+      spriteID: 954e2bb4857e2394d99456a9624de16c
+      internalID: -8771528257030530352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_31
+      name: Butterfly Fly 0_26
       rect:
         serializedVersion: 2
-        x: 515
-        y: 5
-        width: 41
-        height: 35
+        x: 140
+        y: 0
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,20 +850,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e1f75716b8ef24595eb38763e40d80
-      internalID: 434764156900306878
+      spriteID: 3a24d1fc6f120ab4cb5a5b54477c41f9
+      internalID: -2243207557777201602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_32
+      name: Butterfly Fly 0_27
       rect:
         serializedVersion: 2
-        x: 583
-        y: 6
-        width: 37
-        height: 39
+        x: 210
+        y: 0
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,20 +871,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b330df1b8ede5f44d93d882399373d4c
-      internalID: -4844357978655695254
+      spriteID: 94e808d6cd65f744093b4a3b5dcf99aa
+      internalID: -8208286421751217973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Butterfly Fly 1_33
+      name: Butterfly Fly 0_28
       rect:
         serializedVersion: 2
-        x: 652
-        y: 7
-        width: 33
-        height: 39
+        x: 280
+        y: 0
+        width: 70
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,8 +892,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97d17fca9bd5a3941829be0b004a9a51
-      internalID: 6111373459006282211
+      spriteID: 9c766b749778de64d9673d2759852589
+      internalID: -8888269713999088901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly Fly 0_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e66178b3265d294196f1b448d9da5a5
+      internalID: 6468246495696859921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly Fly 0_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba83038c0e88e445be6d35e4aa0c26c
+      internalID: 2488214635849185575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly Fly 0_31
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8168c1763905ff640b2357f294c07f14
+      internalID: 3313948475181690164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly Fly 0_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda44e16bc4caee4dbab2e9d77ae88b5
+      internalID: 6307769571850237549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly Fly 0_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0819e9992cbaf0844982382c513865ee
+      internalID: -8130612229980732520
       vertices: []
       indices: 
       edges: []

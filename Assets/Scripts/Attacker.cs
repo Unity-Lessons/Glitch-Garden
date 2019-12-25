@@ -8,7 +8,7 @@ public class Attacker : MonoBehaviour
     bool readyToMove = false;
     [Range(0f, 2f)]
     [SerializeField] float walkSpeed = 1.0f;
-    [SerializeField] new Animation animation;
+    //[SerializeField] new Animation animation;
 
     // Start is called before the first frame update
     void Start()
