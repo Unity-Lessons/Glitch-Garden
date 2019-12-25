@@ -28,4 +28,8 @@ public class Attacker : MonoBehaviour
         transform.Translate(Vector2.left * walkSpeed * Time.deltaTime);
     }
 
+    public void SetMovementSpeed(float speed)
+    {
+        walkSpeed = speed;
+    }
 }
