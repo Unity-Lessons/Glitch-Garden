@@ -5,6 +5,7 @@ using UnityEngine;
 public class AttackerSpawner : MonoBehaviour
 {
     bool spawn = true;
+    int index = 0;
     [SerializeField] float spawnMinWait = 0.5f;
     [SerializeField] float spawnMaxWait = 1f;
 
@@ -22,6 +23,7 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        var newAttacker = Instantiate(attackerList[Random.Range(0, attackerList.Count)], transform.position, Quaternion.identity);
+        index = Random.Range(0, attackerList.Count);
+        var newAttacker = Instantiate(attackerList[index], transform.position, Quaternion.identity);
     }
 }
