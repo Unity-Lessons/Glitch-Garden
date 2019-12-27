@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4612611304987719717}
   - component: {fileID: 4964602076415905537}
   - component: {fileID: 5287752752575288585}
+  - component: {fileID: 1569928202}
+  - component: {fileID: 834216328}
   m_Layer: 0
   m_Name: Nutmeg
   m_TagString: Untagged
@@ -102,3 +104,35 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1569928202
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862725258883778940}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5f8fb5933e81ad4b9916e527893bbb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &834216328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862725258883778940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9bdd7d67f7677418c65c3b767e009c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1

@@ -10,6 +10,6 @@ public class Shooter : MonoBehaviour
     public void Fire()
     {
         var newProj = Instantiate(projectile, firePoint.transform.position, Quaternion.identity);
-        newProj.GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
+        //newProj.GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
     }
 }
