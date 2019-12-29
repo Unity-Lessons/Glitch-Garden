@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 5534975471252325166}
   - component: {fileID: 5534975471252325152}
   - component: {fileID: 5534975471252325167}
-  m_Layer: 0
+  - component: {fileID: 5452880297434593117}
+  - component: {fileID: 1699469846907997162}
+  m_Layer: 8
   m_Name: Butterfly 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,6 +103,46 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &5452880297434593117
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471252325165}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.09957838, y: -0.27720475}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7, y: 0.65}
+    newSize: {x: 0.7, y: 0.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3716612, y: 0.84915686}
+  m_EdgeRadius: 0
+--- !u!114 &1699469846907997162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471252325165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf216892cdedd4e4d912ed48861c9fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  durationOfDeath: 1
 --- !u!1 &5534975471670796232
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +154,9 @@ GameObject:
   - component: {fileID: 5534975471670796233}
   - component: {fileID: 5534975471670796234}
   - component: {fileID: 5534975471670796235}
-  m_Layer: 0
+  - component: {fileID: 7068393995207451205}
+  - component: {fileID: 1655485100370052529}
+  m_Layer: 8
   m_Name: Butterfly 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,6 +246,46 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &7068393995207451205
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471670796232}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.091504574, y: -0.2879702}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7, y: 0.65}
+    newSize: {x: 0.7, y: 0.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16173744, y: 0.8706877}
+  m_EdgeRadius: 0
+--- !u!114 &1655485100370052529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471670796232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf216892cdedd4e4d912ed48861c9fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  durationOfDeath: 1
 --- !u!1 &5534975471834544505
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +296,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5534975471834544506}
   - component: {fileID: 1583019865}
-  m_Layer: 0
+  - component: {fileID: -3772424481831878035}
+  m_Layer: 8
   m_Name: Butterflies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +333,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5ba4f91db058e478e730ce662ae594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 1
+  walkSpeed: 0.4
+--- !u!50 &-3772424481831878035
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471834544505}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &5534975472510191882
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +366,9 @@ GameObject:
   - component: {fileID: 5534975472510191883}
   - component: {fileID: 5534975472510191884}
   - component: {fileID: 5534975472510191885}
-  m_Layer: 0
+  - component: {fileID: 3201477812169336920}
+  - component: {fileID: 6995997924605598029}
+  m_Layer: 8
   m_Name: Butterfly 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5534975472510191882}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.54, y: -0.29, z: 0}
+  m_LocalPosition: {x: 0.583, y: -0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5534975471834544506}
@@ -349,3 +457,43 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &3201477812169336920
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975472510191882}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.072664976, y: 0.14802217}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7, y: 0.65}
+    newSize: {x: 0.7, y: 0.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.41472197, y: 0.827626}
+  m_EdgeRadius: 0
+--- !u!114 &6995997924605598029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975472510191882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf216892cdedd4e4d912ed48861c9fc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  durationOfDeath: 1

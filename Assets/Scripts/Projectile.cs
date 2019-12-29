@@ -5,10 +5,24 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] float speed = 1.0f;
+    [SerializeField] int dmg = 5;
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<Health>() != null)
+            DealDamage(collision.gameObject);
+
+        Destroy(gameObject);
+    }
+
+    private void DealDamage(GameObject newObject)
+    {
+        newObject.GetComponent<Health>().DealDamage(dmg);
     }
 }
