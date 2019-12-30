@@ -5,20 +5,25 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] int health = 50;
-    //[SerializeField] GameObject deathVFX;
-    [SerializeField] float durationOfDeath = 1f;
+    [SerializeField] GameObject deathVFX;
+    [SerializeField] float durationOfDeath = 5f;
 
     public void DealDamage(int dmg)
     {
         health -= dmg;
         if (health <= 0)
-            Death();
+        {
+            TriggerDeathVFX();
+            Destroy(gameObject);
+        }
     }
 
-    private void Death()
+    private void TriggerDeathVFX()
     {
-        Destroy(gameObject);
-        //GameObject attckerExplosion = Instantiate(deathVFX, gameObject.transform.position, transform.rotation);
-        //Destroy(attckerExplosion, durationOfDeath);
+        if (deathVFX == null) { return; }
+
+        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
+        deathVFXObject.transform.position.Set(transform.position.x, transform.position.y, -1f);
+        Destroy(deathVFXObject, durationOfDeath);
     }
 }

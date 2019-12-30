@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5534975471252325167}
   - component: {fileID: 5452880297434593117}
   - component: {fileID: 1699469846907997162}
+  - component: {fileID: 5508307876243633056}
   m_Layer: 8
   m_Name: Butterfly 2
   m_TagString: Untagged
@@ -116,7 +117,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09957838, y: -0.27720475}
+  m_Offset: {x: 0.072665215, y: -0.27720475}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -127,7 +128,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3716612, y: 0.84915686}
+  m_Size: {x: 0.31783485, y: 0.84915686}
   m_EdgeRadius: 0
 --- !u!114 &1699469846907997162
 MonoBehaviour:
@@ -141,8 +142,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf216892cdedd4e4d912ed48861c9fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   durationOfDeath: 1
+--- !u!114 &5508307876243633056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471252325165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ba4f91db058e478e730ce662ae594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 0
 --- !u!1 &5534975471670796232
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,6 +171,7 @@ GameObject:
   - component: {fileID: 5534975471670796235}
   - component: {fileID: 7068393995207451205}
   - component: {fileID: 1655485100370052529}
+  - component: {fileID: 8513522006579763583}
   m_Layer: 8
   m_Name: Butterfly 0
   m_TagString: Untagged
@@ -171,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5534975471670796232}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.359, y: 0.141, z: 0}
+  m_LocalPosition: {x: 0.305, y: 0.098, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5534975471834544506}
@@ -259,7 +275,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.091504574, y: -0.2879702}
+  m_Offset: {x: 0.06459141, y: -0.24490905}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -270,7 +286,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16173744, y: 0.8706877}
+  m_Size: {x: 0.21556377, y: 0.84915733}
   m_EdgeRadius: 0
 --- !u!114 &1655485100370052529
 MonoBehaviour:
@@ -284,8 +300,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf216892cdedd4e4d912ed48861c9fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   durationOfDeath: 1
+--- !u!114 &8513522006579763583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975471670796232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ba4f91db058e478e730ce662ae594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 0
 --- !u!1 &5534975471834544505
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +398,7 @@ GameObject:
   - component: {fileID: 5534975472510191885}
   - component: {fileID: 3201477812169336920}
   - component: {fileID: 6995997924605598029}
+  - component: {fileID: 1271458261348751460}
   m_Layer: 8
   m_Name: Butterfly 1
   m_TagString: Untagged
@@ -470,7 +501,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.072664976, y: 0.14802217}
+  m_Offset: {x: 0.053825855, y: 0.15878737}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -481,7 +512,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.41472197, y: 0.827626}
+  m_Size: {x: 0.37704372, y: 0.8491564}
   m_EdgeRadius: 0
 --- !u!114 &6995997924605598029
 MonoBehaviour:
@@ -495,5 +526,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf216892cdedd4e4d912ed48861c9fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   durationOfDeath: 1
+--- !u!114 &1271458261348751460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534975472510191882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ba4f91db058e478e730ce662ae594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 0
