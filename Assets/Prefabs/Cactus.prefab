@@ -212,6 +212,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathVFX: {fileID: 1862725258883778940, guid: d2f24a2940dae3248b117c5f5e959af5,
-    type: 3}
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   durationOfDeath: 1
