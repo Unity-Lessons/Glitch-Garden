@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 1269715886350732658}
   - component: {fileID: 2308650069584583090}
   - component: {fileID: -4971453191289490576}
+  - component: {fileID: 998993397}
   m_Layer: 9
   m_Name: Cactus
   m_TagString: Untagged
@@ -214,3 +215,16 @@ MonoBehaviour:
   health: 100
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
   durationOfDeath: 1
+--- !u!114 &998993397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3488637518731976847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c722e073606d8ae459a76487b112b45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starCost: 100

@@ -7,8 +7,7 @@ using UnityEngine;
 public class DefenderSpawner : MonoBehaviour
 {
 
-    [SerializeField] List<GameObject> defenders;
-    string n_defender;
+    Defender defender;
 
     private void OnMouseDown()
     {
@@ -33,21 +32,12 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 worldPos)
     {
-        int i = 0;
-        for (i = 0; i < defenders.Count; i++)
-        {
-            if (defenders[i].name == n_defender)
-            {
-                break;
-            }
-        }
-        var newDefender = defenders[i];
         //newDefender.transform.localScale = new Vector3(0.8f, 0.8f, 1f);
-        newDefender = Instantiate(defenders[i], worldPos, transform.rotation) as GameObject;
+        Defender newDefender = Instantiate(defender, worldPos, transform.rotation) as Defender;
     }
 
-    public void UpdateDefender(GameObject selectedDefender)
+    public void UpdateDefender(Defender selectedDefender)
     {
-        n_defender = selectedDefender.name;
+        defender = selectedDefender;
     }
 }

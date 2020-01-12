@@ -6,6 +6,7 @@ public class DefenderButton : MonoBehaviour
 {
     SpriteRenderer sp;
     DefenderSpawner defSpawn;
+    [SerializeField] Defender defenderPrefab;
 
     private void Start()
     {
@@ -20,7 +21,7 @@ public class DefenderButton : MonoBehaviour
             button.GetComponent<SpriteRenderer>().color = new Color32(65, 65, 65, 255);
         
         sp.color = Color.white;
-        defSpawn.UpdateDefender(this.gameObject);
+        defSpawn.UpdateDefender(defenderPrefab);
     }
 
 
