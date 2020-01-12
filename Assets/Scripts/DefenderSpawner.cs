@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
 
-    [SerializeField] GameObject defender;
+    [SerializeField] List<GameObject> defenders;
+    string n_defender;
 
     private void OnMouseDown()
     {
@@ -31,6 +33,21 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 worldPos)
     {
-        GameObject newDefender = Instantiate(defender, worldPos, transform.rotation) as GameObject;
+        int i = 0;
+        for (i = 0; i < defenders.Count; i++)
+        {
+            if (defenders[i].name == n_defender)
+            {
+                break;
+            }
+        }
+        var newDefender = defenders[i];
+        //newDefender.transform.localScale = new Vector3(0.8f, 0.8f, 1f);
+        newDefender = Instantiate(defenders[i], worldPos, transform.rotation) as GameObject;
+    }
+
+    public void UpdateDefender(GameObject selectedDefender)
+    {
+        n_defender = selectedDefender.name;
     }
 }
