@@ -18,7 +18,7 @@ public class DefenderButton : MonoBehaviour
     {
         var buttons = FindObjectsOfType<DefenderButton>();
         foreach (DefenderButton button in buttons)
-            button.GetComponent<SpriteRenderer>().color = new Color32(65, 65, 65, 255);
+            button.GetComponent<SpriteRenderer>().color = new Color32(125, 125, 125, 255);
         
         sp.color = Color.white;
         defSpawn.UpdateDefender(defenderPrefab);
